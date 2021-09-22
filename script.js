@@ -64,14 +64,12 @@ function validation(userValue){
     }
     else {
         check[2].checked = false;
-
     }
     if (lower.length >= check[1].value) {
         check[1].checked = true;
     }
     else {
         check[1].checked = false;
-
     }
     if (specChar.length >= check[3].value) {
         check[3].checked = true;
